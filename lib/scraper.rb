@@ -43,7 +43,7 @@ class Scraper
     end
 
     student[:bio] = doc.css("div.bio-block div.description-holder p").text
-      
+
 
   end
 
